@@ -1,0 +1,55 @@
+.a{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+
+}
+.b {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.box1{
+    margin-right: 20px;
+}
+.box2{
+    margin-left: 20px;
+}
+.box1,.box2{
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.parent {
+    height: 500px;
+    width: 100%;
+    background-color: lightcoral;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+
+
+}
+.x {
+    margin-top: 30px;
+    border: 2px solid orange
+}
+.y {
+    margin-top: 30px;
+    border: 2px solid orange
